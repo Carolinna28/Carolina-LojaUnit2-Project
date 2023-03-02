@@ -1,0 +1,77 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1 {
+    text-align: center;
+    color: #0f2b45;
+}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2 {
+    text-align: center;
+    color: #0f2b45;
+    font-size:25px;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section {
+    border: 5px black solid;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 15px;
+    font-size:20px;
+}
+
+.image:hover {
+    background-color: #eed8ae;
+    border-color: #c1907b;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.section:hover {
+    border-color: #5E3D2C;
+    padding: 5px;
+}
+
+body {
+    background-color: #eed8ae;
+    font-family: cinzel;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5E3D2C;
+    color: #eed8ae;
+    font-family: cinzel;
+    font-size: 25px;
+}
+
+.sectionsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
